@@ -1,0 +1,28 @@
+%TESTC  4 v2
+%TSTTREE2,com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest,true,4,false,1,UsuarioServiceTest,,[engine:junit-jupiter]/[class:com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest]
+%TSTTREE3,buscarPorId_CuandoExiste_RetornaUsuario(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest),false,1,false,2,buscarPorId_CuandoExiste_RetornaUsuario(),,[engine:junit-jupiter]/[class:com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest]/[method:buscarPorId_CuandoExiste_RetornaUsuario()]
+%TSTTREE4,buscarPorId_CuandoNoExiste_LanzaExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest),false,1,false,2,buscarPorId_CuandoNoExiste_LanzaExcepcion(),,[engine:junit-jupiter]/[class:com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest]/[method:buscarPorId_CuandoNoExiste_LanzaExcepcion()]
+%TSTTREE5,registrarUsuario_CuandoNoExisteEmail_DebeGuardar(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest),false,1,false,2,registrarUsuario_CuandoNoExisteEmail_DebeGuardar(),,[engine:junit-jupiter]/[class:com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest]/[method:registrarUsuario_CuandoNoExisteEmail_DebeGuardar()]
+%TSTTREE6,registrarUsuario_CuandoExisteEmail_DebeLanzarExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest),false,1,false,2,registrarUsuario_CuandoExisteEmail_DebeLanzarExcepcion(),,[engine:junit-jupiter]/[class:com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest]/[method:registrarUsuario_CuandoExisteEmail_DebeLanzarExcepcion()]
+%TESTS  3,buscarPorId_CuandoExiste_RetornaUsuario(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTE  3,buscarPorId_CuandoExiste_RetornaUsuario(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTS  4,buscarPorId_CuandoNoExiste_LanzaExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTE  4,buscarPorId_CuandoNoExiste_LanzaExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTS  5,registrarUsuario_CuandoNoExisteEmail_DebeGuardar(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTE  5,registrarUsuario_CuandoNoExisteEmail_DebeGuardar(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTS  6,registrarUsuario_CuandoExisteEmail_DebeLanzarExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%TESTE  6,registrarUsuario_CuandoExisteEmail_DebeLanzarExcepcion(com.pruebasunitarias.pruebasunitarias.UsuarioServiceTest)
+
+%RUNTIME1122
+
+
+
+repositorio:
+https://github.com/Nico4all/pruebas-unitarias
